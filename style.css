@@ -233,6 +233,8 @@ footer .questions {
     
     nav{
         max-width: 90vw;
+      position: relative;
+      bottom: 16px;
     }
     
     .first {
@@ -286,16 +288,6 @@ footer .questions {
 
 
 
-@media screen and (max-width: 1300px) {
-    
-    .footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 25px;
-    }
-}
-
-
 .footer a {
     font-size: 14px;
     color: #b3b3b3;
@@ -339,4 +331,23 @@ footer .questions {
 }
 .last-item a{
     text-decoration: none; color: #b3b3b3; font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+   
+    .main input {
+        padding: 13px 1px 14px 14px;
+        
+    }
+    .heroo input {
+        padding: 13px 1px 14px 14px;
+    }
 }
